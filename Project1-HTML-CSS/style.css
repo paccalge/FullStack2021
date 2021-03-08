@@ -1,0 +1,71 @@
+header{
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid black;
+    max-width: 89rem;
+}
+
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid black;
+}
+
+a p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.offer {
+    border: solid black;
+}
+
+.desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.empty {
+    border: solid black;
+    height: 5rem;
+}
+
+.bseller{
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+ 
+    
+
+
+}
+
+.bsopt{
+    border: solid black;
+    height: 1rem;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: .5rem;
+    width: 1rem;
+}
+
+
+.lfoo {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
