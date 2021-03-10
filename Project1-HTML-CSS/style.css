@@ -125,12 +125,63 @@ h1 {
 
 .bsopt {
   border: solid black;
-  height: 20rem;
+  height: 33.3rem;
   width: 20rem;
-  background-color: lightblue;
+  background-color: rgb(223, 223, 223);
   margin: 0.5rem;
+   
  
 }
+
+
+
+#impwhey {
+
+    height: 20rem;
+    margin-top: .7rem;
+   
+}
+
+.infowind {
+   
+    background-color: rgb(255, 255, 255);
+    
+}
+
+h5 {
+    color: red;
+    margin-left: .8rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+h4 {
+    margin-left: .8rem;
+    padding-bottom: .5rem;
+    color: rgb(119, 118, 118);
+}
+
+#precio {
+    color: black;
+    margin-left: .8rem;
+    padding-bottom: .5rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+    
+}
+
+
+.nameprod {
+    margin-left: .8rem;
+    color: rgb(51, 46, 46);
+    font-size: 1.3rem;
+    font-weight: 800;
+    
+    
+}
+
+
+
 
 .lfoo {
   display: flex;
