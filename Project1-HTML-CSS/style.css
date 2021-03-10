@@ -1,71 +1,145 @@
-header{
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: solid black;
-    max-width: 89rem;
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid black;
+  max-width: 89rem;
+  height: 4rem;
 }
+
+
+
+#logo {
+  height: 4rem;
+  display: flex;
+}
+
+.startheader {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+#endheader {
+    background-color: hotpink;
+    display: flex;
+    justify-content:  center;
+    align-items: flex-end;
+    align-content: space-around;
+}
+
 
 
 .lista {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: solid black;
+  background-color: rgba(163, 163, 163, 0.657);
 }
 
-a p{
-    display: flex;
-    justify-content: center;
-    
+.lista2 {
+  border: solid black;
+  background-color: rgba(218, 218, 218, 0.657);
+  height: 3rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.lofert {
+  color: rgb(65, 66, 65);
+  margin-right: 2rem;
+  margin-left: 1rem;
+  font-family: Biotif, "Noto Sans", "Noto Sans JP", "Noto Sans KR", Helvetica;
+  font-size: 0.9rem;
+  font-weight: 400;
+  height: 4rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#barraopc {
+  height: 2rem;
+  background-color: rgba(56, 172, 192, 0.924);
+}
+
+.listainit {
+  color: white;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  font-family: Biotif, "Noto Sans", "Noto Sans JP", "Noto Sans KR", Helvetica;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 
 .offer {
-    border: solid black;
+  border: solid black;
+  text-decoration: none;
+  background-color: rgb(236, 236, 235);
+  
 }
 
-.desc {
+.savings {
+    color: rgb(236, 19, 19);
+    text-decoration: none;
+    font-weight: 600;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 }
+
+
+#discount-pic {
+    height: 28rem;
+    width: 88rem;
+}
+
 
 .empty {
-    border: solid black;
-    height: 5rem;
+  border: solid black;
+  height: 5rem;
 }
 
-.bseller{
-    border: solid black;
+
+h1 {
     display: flex;
-    flex-direction: column;
- 
-    
-
-
-}
-
-.bsopt{
-    border: solid black;
-    height: 1rem;
-    background-color: lightblue;
-    display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
-    margin: .5rem;
-    width: 1rem;
+    align-items: center;
+
 }
 
+
+.bseller {
+  border: solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bsopt {
+  border: solid black;
+  height: 20rem;
+  width: 20rem;
+  background-color: lightblue;
+  margin: 0.5rem;
+ 
+}
 
 .lfoo {
-
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
 }
 
 footer div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
