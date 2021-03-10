@@ -4,14 +4,57 @@ header {
   justify-content: space-around;
   border: solid black;
   max-width: 89rem;
-  height: 4rem;
+  height: 5rem;
 }
 
 
+#searchbar {
+    margin-right: 500px;
+    height: 2rem;
+    width: 35rem;
+}
+
+
+#cesta {
+    margin-right: 300px;
+    margin-top: -5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(65, 65, 65);
+    display: inline-flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+
+#bask { 
+    height: 2rem;
+    margin-top: -5px;
+}
+
+#cuenta {
+    margin-right: -380px;
+    margin-top: -5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(65, 65, 65);
+    display: inline-flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#user {
+    height: 1.5rem;
+    margin-right: 5px;
+}
+
 
 #logo {
-  height: 4rem;
+  height: 5rem;
   display: flex;
+  margin-right: 50px;
 }
 
 .startheader {
@@ -20,13 +63,7 @@ header {
   align-items: center;
 }
 
-#endheader {
-    background-color: hotpink;
-    display: flex;
-    justify-content:  center;
-    align-items: flex-end;
-    align-content: space-around;
-}
+
 
 
 
@@ -88,11 +125,13 @@ header {
 }
 
 .savings {
-    color: rgb(236, 19, 19);
+    color: rgb(236 , 19 , 19);
     text-decoration: none;
     font-weight: 600;
     display: flex;
     justify-content: center;
+    font-style: initial ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -176,10 +215,21 @@ h4 {
     color: rgb(51, 46, 46);
     font-size: 1.3rem;
     font-weight: 800;
-    
-    
+       
 }
 
+
+#discount-pic {
+    height: 25rem;
+    width: 86rem;
+    margin-left: 1rem;
+}
+
+#clothing-pic {
+    width: 85rem;
+    margin-left: 1.5rem;
+
+}
 
 
 
