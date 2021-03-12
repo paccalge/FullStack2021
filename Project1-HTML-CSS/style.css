@@ -3,20 +3,22 @@ header {
   flex-direction: row;
   justify-content: space-around;
   border: solid black;
-  max-width: 89rem;
+  max-width: 88rem;
   height: 5rem;
+  margin-left: 0;
 }
 
 
 #searchbar {
     margin-right: 500px;
+    margin-left: 50px;
     height: 2rem;
     width: 35rem;
 }
 
 
 #cesta {
-    margin-right: 300px;
+    margin-right: 400px;
     margin-top: -5px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -34,7 +36,7 @@ header {
 }
 
 #cuenta {
-    margin-right: -380px;
+    margin-right: -220px;
     margin-top: -5px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -54,7 +56,9 @@ header {
 #logo {
   height: 5rem;
   display: flex;
-  margin-right: 50px;
+  margin-left: 250px;
+  
+  
 }
 
 .startheader {
@@ -126,6 +130,7 @@ header {
 
 .savings {
     color: rgb(236 , 19 , 19);
+    height: 3rem;
     text-decoration: none;
     font-weight: 600;
     display: flex;
@@ -143,7 +148,7 @@ header {
 
 .empty {
   border: solid black;
-  height: 5rem;
+  height: 3rem;
 }
 
 
@@ -213,7 +218,7 @@ h4 {
 .nameprod {
     margin-left: .8rem;
     color: rgb(51, 46, 46);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 800;
        
 }
@@ -227,6 +232,7 @@ h4 {
 
 #clothing-pic {
     width: 85rem;
+    height: 25rem;
     margin-left: 1.5rem;
 
 }
@@ -234,13 +240,100 @@ h4 {
 
 
 .lfoo {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
+  
+  margin-top: 1rem;
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: row-reverse;
+
+
 }
 
-footer div {
+.aw{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  border-top: solid rgb(194, 192, 192);
+
+
+}
+
+.contact {
+
+  height: 7.5rem;
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  justify-content: baseline;
+  align-items: baseline;
+  background-color: rgb(80, 80, 80);
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+#reg {
+  background-color: rgba(56, 172, 192, 0.924);
+  height: 2rem;
+  width: 10rem;
+  color: azure;
+  font-weight: 800;
+  font-size: 1rem;
+  border: thin black;
+}
+
+.iconcontact {
+  height: 2rem;
+}
+
+#divregis {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+#divconect {
+  font-size: 1.1rem;
+}
+
+.emptydown {
+  
+  height: 2rem;
+  background-color: rgb(126, 127, 128);
+
+}
+
+
+
+footer {
+
+  background-color: rgb(126, 127, 128);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;  
+   
+}
+
+.iconfoot {
+  height: 2rem;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-right: 11rem;
+  margin-top: -25px;
+}
+
+.aw h5 {
+  color: aliceblue;
+  font-weight: 1500;
+  font-size: 1rem;
 }
