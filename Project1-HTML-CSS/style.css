@@ -8,57 +8,51 @@ header {
   margin-left: 0;
 }
 
-
 #searchbar {
-    margin-right: 500px;
-    margin-left: 50px;
-    height: 2rem;
-    width: 35rem;
+  margin-right: 500px;
+  margin-left: 50px;
+  height: 2rem;
+  width: 35rem;
 }
-
 
 #cesta {
-    margin-right: 400px;
-    margin-top: -5px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: rgb(65, 65, 65);
-    display: inline-flex;
-    justify-content: baseline;
-    align-items: center;
-    flex-direction: row-reverse;
-    
+  margin-right: 400px;
+  margin-top: -5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(65, 65, 65);
+  display: inline-flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
-#bask { 
-    height: 2rem;
-    margin-top: -5px;
+#bask {
+  height: 2rem;
+  margin-top: -5px;
 }
 
 #cuenta {
-    margin-right: -220px;
-    margin-top: -5px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: rgb(65, 65, 65);
-    display: inline-flex;
-    justify-content: baseline;
-    align-items: center;
-    flex-direction: row-reverse;
+  margin-right: -220px;
+  margin-top: -5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(65, 65, 65);
+  display: inline-flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 #user {
-    height: 1.5rem;
-    margin-right: 5px;
+  height: 1.5rem;
+  margin-right: 5px;
 }
-
 
 #logo {
   height: 5rem;
   display: flex;
   margin-left: 250px;
-  
-  
 }
 
 .startheader {
@@ -66,10 +60,6 @@ header {
   display: flex;
   align-items: center;
 }
-
-
-
-
 
 .lista {
   display: flex;
@@ -108,6 +98,14 @@ header {
 #barraopc {
   height: 2rem;
   background-color: rgba(56, 172, 192, 0.924);
+  transition-property: background-color, color;
+  transition-duration: 1.5s;
+}
+
+#barraopc:hover {
+  height: 2rem;
+  background-color: rgba(56, 192, 97, 0.924);
+  transition-property: background-color, color;
 }
 
 .listainit {
@@ -120,45 +118,214 @@ header {
   text-decoration: none;
 }
 
+#offerhov:hover {
+  background-color: rgba(119, 175, 185, 0.924);
+}
+
+#nutri:hover {
+  color: black;
+}
+
+#ropa:hover {
+  color: black;
+}
+
+#barra:hover {
+  color: black;
+}
+
+#vitam:hover {
+  color: black;
+}
+
+#reque:hover {
+  color: black;
+}
+
+#vegan:hover {
+  color: black;
+}
+
+#pro:hover {
+  color: black;
+}
+
+#salud:hover {
+  color: black;
+}
+
+#blog:hover {
+  color: black;
+}
 
 .offer {
   border: solid black;
   text-decoration: none;
-  background-color: rgb(236, 236, 235);
-  
+  background-color: rgb(255, 255, 255);
 }
 
 .savings {
-    color: rgb(236 , 19 , 19);
-    height: 3rem;
-    text-decoration: none;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    font-style: initial ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(189, 66, 66);
+  height: 3rem;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  font-style: initial;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 #discount-pic {
-    height: 28rem;
-    width: 88rem;
+  height: 28rem;
+  width: 88rem;
 }
-
 
 .empty {
   border: solid black;
   height: 3rem;
 }
 
-
 h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-left: 21.7rem;
+  width: 40rem;
+}
+
+.sect {
+  height: 8rem;
+  width: 8rem;
+  margin: 3rem;
+  margin-left: 6rem;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.namesect {
+  margin-left: 0.8rem;
+  color: rgb(141, 31, 31);
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.titlesec {
+  height: 8rem;
+  width: 15rem;
+}
+
+#alimentaTuCuerpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  
+  
+} 
+
+#recu {
+  margin-top: 84px;
 
 }
 
+
+}
+
+
+
+.tresopciones {
+  
+  height: 1rem;
+  
+ 
+
+}
+
+
+.picthree{
+
+  height: 15rem;
+  width: 27rem;
+  
+}
+
+
+#recus{
+
+  height: 30rem;
+ 
+}
+
+#picrec{
+  margin-top: -3px;
+}
+
+
+#butrec{
+  margin-top: 25px;
+}
+
+#impulso {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: -10px;
+  margin-bottom: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+ 
+}
+
+
+ 
+
+
+.buttonenerg{
+  color: rgba(56, 172, 192, 0.924);
+  background-color: rgb(255, 255, 255);
+  height: 3rem;
+  width: 6rem;
+  margin-left: .7rem;
+  border-color: rgba(56, 172, 192, 0.712);
+}
+
+
+
+#butrec:hover{
+  background-color:  rgba(178, 214, 221, 0.712);
+  
+}
+
+#butenerg:hover{
+  background-color:  rgba(178, 214, 221, 0.712);
+}
+
+#butren:hover{
+  background-color:  rgba(178, 214, 221, 0.712);
+}
+
+
+#impulsoS {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: -60px;
+ 
+}
 
 .bseller {
   border: solid black;
@@ -169,90 +336,85 @@ h1 {
 
 .bsopt {
   border: solid black;
-  height: 33.3rem;
+  height: 32.5rem;
   width: 20rem;
   background-color: rgb(223, 223, 223);
   margin: 0.5rem;
-   
- 
 }
 
-
-
 #impwhey {
-
-    height: 20rem;
-    margin-top: .7rem;
-   
+  height: 20rem;
+  margin-top: 0.7rem;
 }
 
 .infowind {
-   
-    background-color: rgb(255, 255, 255);
-    
+  background-color: rgb(255, 255, 255);
 }
 
 h5 {
-    color: red;
-    margin-left: .8rem;
-    margin-top: 1rem;
-    padding-top: 1rem;
+  color: red;
+  margin-left: 0.8rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 h4 {
-    margin-left: .8rem;
-    padding-bottom: .5rem;
-    color: rgb(119, 118, 118);
+  margin-left: 0.8rem;
+  padding-bottom: 0.5rem;
+  color: rgb(119, 118, 118);
 }
 
 #precio {
-    color: black;
-    margin-left: .8rem;
-    padding-bottom: .5rem;
-    font-weight: 800;
-    font-size: 1.2rem;
-    
+  color: black;
+  margin-left: 0.8rem;
+  padding-bottom: 0.5rem;
+  font-weight: 800;
+  font-size: 1.2rem;
 }
-
 
 .nameprod {
-    margin-left: .8rem;
-    color: rgb(51, 46, 46);
-    font-size: 1.1rem;
-    font-weight: 800;
-       
+  margin-left: 0.8rem;
+  color: rgb(51, 46, 46);
+  font-size: 1.1rem;
+  font-weight: 800;
 }
 
+#impact:hover {
+  color: rgb(158, 151, 141);
+}
+#pancake:hover {
+  color: rgb(158, 151, 141);
+}
+#dwhey:hover {
+  color: rgb(158, 151, 141);
+}
+#clear:hover {
+  color: rgb(158, 151, 141);
+}
 
 #discount-pic {
-    height: 25rem;
-    width: 86rem;
-    margin-left: 1rem;
+  height: 25rem;
+  width: 86rem;
+  margin-left: 1rem;
 }
 
 #clothing-pic {
-    width: 85rem;
-    height: 25rem;
-    margin-left: 1.5rem;
-
+  width: 85rem;
+  height: 25rem;
+  margin-left: 1.5rem;
 }
 
-
-
 .lfoo {
-  
   margin-top: 1rem;
   text-decoration: none;
   color: aliceblue;
   display: inline-flex;
-    justify-content: baseline;
-    align-items: center;
-    flex-direction: row-reverse;
-
-
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
-.aw{
+.aw {
   display: inline-flex;
   justify-content: center;
   flex-direction: column;
@@ -261,12 +423,9 @@ h4 {
   margin-bottom: 2rem;
   text-decoration: none;
   border-top: solid rgb(194, 192, 192);
-
-
 }
 
 .contact {
-
   height: 7.5rem;
   display: flex;
   justify-content: space-evenly;
@@ -274,11 +433,10 @@ h4 {
   align-items: baseline;
   background-color: rgb(80, 80, 80);
   color: aliceblue;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#reg {
+.reg {
   background-color: rgba(56, 172, 192, 0.924);
   height: 2rem;
   width: 10rem;
@@ -286,6 +444,10 @@ h4 {
   font-weight: 800;
   font-size: 1rem;
   border: thin black;
+}
+
+#reg:hover {
+  background-color: rgba(132, 219, 235, 0.924);
 }
 
 .iconcontact {
@@ -297,7 +459,7 @@ h4 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 #divconect {
@@ -305,21 +467,15 @@ h4 {
 }
 
 .emptydown {
-  
   height: 2rem;
   background-color: rgb(126, 127, 128);
-
 }
 
-
-
 footer {
-
   background-color: rgb(126, 127, 128);
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;  
-   
+  align-items: flex-start;
 }
 
 .iconfoot {
@@ -330,6 +486,7 @@ footer {
   align-items: center;
   margin-right: 11rem;
   margin-top: -25px;
+  border-radius: 5rem;
 }
 
 .aw h5 {
