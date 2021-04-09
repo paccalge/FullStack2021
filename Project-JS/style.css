@@ -1,0 +1,62 @@
+
+
+.dealercards{
+    display: inline-flex;
+    border: solid black;
+    height: 15rem;
+    width: 10rem;
+    justify-content: center;
+    margin-left: 2rem;
+    border-radius: 1.5rem;
+  
+}
+
+
+.playercards{
+    display: inline-flex;
+    border: solid black;
+    height: 15rem;
+    width: 10rem;
+    justify-content: center;
+    margin-left: 2rem;
+    border-radius: 1.5rem;
+    
+
+   
+}
+
+#restartgame{
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-right: 2REM;
+    height: 3rem;
+}
+
+
+
+#dealer {
+
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#player{
+    border: solid black;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hs{
+    margin-left: 1.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
