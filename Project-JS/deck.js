@@ -1,21 +1,19 @@
-const SUITS = ["♠", "♥", "♦", "♣"];
 const VALUES = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+const SUITS = ["♠", "♥", "♦", "♣"];
+
 
 export default class Deck {
   constructor(cards = fullDeck()) {
     this.cards = cards;
   }
 
-
-
-  /////////////////no logro que salga una carta diferente cada vez
-   shuffleDeck() {
-    for (let i = 1 ;  i < this.cards.length; i++) {
-        const newPosition = Math.random() * (i + 1)
-        this.cards[newPosition] = this.cards[i]
-        
-    } 
-    }
+  
+          shuffleDeck() {
+            for (let i = 1 ;  i < this.cards.length; i++) {
+                const newPosition = Math.floor(Math.random() * (i + 1))
+                this.cards[newPosition] = this.cards[i]
+                        } 
+                }
 
 }
 
@@ -26,23 +24,28 @@ class Card {
   }
 
 
-addSuit() {
-      const suitAdder = document.createElement('div')
-      suitAdder.innerText = this.suit
-      return suitAdder
- 
-  }
+          addSuit() {
+                const suitAdder = document.createElement('div')
+                suitAdder.innerText = this.suit
+                return suitAdder
 
-addValue() {
-    const valueAdder = document.createElement('div')
-    valueAdder.innerText = this.value
-    return valueAdder
+                  
+            }
 
+          addValue() {
+              const valueAdder = document.createElement('div')
+              valueAdder.innerText = this.value
+              return valueAdder
+          }
+
+
+         // no sé cómo poner color a las cartas
+
+         
+          
+            
 }
-}
-
-
-
+         
 
 function fullDeck() {
   return SUITS.flatMap(suit => {

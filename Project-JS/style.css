@@ -1,14 +1,15 @@
 
-
 .dealercards{
     display: inline-flex;
     border: solid black;
     height: 15rem;
     width: 10rem;
     justify-content: center;
+    align-items: center;
     margin-left: 2rem;
     border-radius: 1.5rem;
-  
+    font-size: 4rem;
+    background-color: white;
 }
 
 
@@ -18,8 +19,11 @@
     height: 15rem;
     width: 10rem;
     justify-content: center;
+    align-items: center;
     margin-left: 2rem;
     border-radius: 1.5rem;
+    font-size: 4rem;
+    background-color: white;
     
 
    
@@ -41,7 +45,9 @@
     border: solid black;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    align-content: center;
+    background-color: rgb(10, 161, 10);
 }
 
 
@@ -50,13 +56,17 @@
     margin-top: 4rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 161, 10);
     
 }
 
 .hs{
     margin-left: 1.5rem;
-    height: 2rem;
+    height: 1.5rem;
     display: flex;
     justify-content: center;
-    margin-top: 7rem;
+    align-items: center;
+    margin-top: 0rem;
 }
+
